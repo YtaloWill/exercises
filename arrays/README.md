@@ -1,4 +1,4 @@
-# Português
+# Português :brazil:
 
 ## Exercicios com vetores
 
@@ -16,7 +16,7 @@ void semRepetidos(int v[], int tam)
 
 4. Escreva uma função que efetue a busca de um determinado elemento em um vetor preenchido sem repetição. Se o elemento for encontrado a função deve retornar o índice do elemento, caso contrario -1. Escopo: int buscaElemento(int v[], int valor, int tam)
 
-# English
+# English :us:
 
 ## Exercises with arrays
 

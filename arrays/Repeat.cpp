@@ -21,7 +21,7 @@ int main(){
         
     int test;
     scanf("\nWrite the value to search: %d", &test);
-    getPosition(array, test, length);
+    buscaRepetidos(array, test, length);
 
     return 0;
 }
@@ -36,7 +36,7 @@ void buscaRepetidos(int v[], int valor, int tam){
     int i, finded = 0;
     for (i = 0; i < tam; i++){
         if (v[i] == valor){
-            printf("Posicao: %d\n", i);
+            printf("Position: %d\n", i);
             finded = 1;
         }
     }
