@@ -10,7 +10,7 @@ int main(){
     int length = rand() % 30 + 1;
     int array[length];
 
-    populateArray(array, length);
+    semRepetidos(array, length);
     
     printf("Array Length: %d\n", length);
     printf("Array: ");
@@ -21,7 +21,7 @@ int main(){
         
     int test;
     scanf("\nWrite the value to search: %d", &test);
-    getPosition(array, test, length);
+    buscaElemento(array, test, length);
 
     return 0;
 }
