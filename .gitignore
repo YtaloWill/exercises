@@ -1,3 +1,9 @@
+# Don't track no extension files
+*
+!*.*
+!/*
+!/*/*
+
 # Prerequisites
 *.d
 
@@ -30,8 +36,3 @@
 *.exe
 *.out
 *.app
-
-# Don't track no extension files
-*
-!*.*
-!/*
